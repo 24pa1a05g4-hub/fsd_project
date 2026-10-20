@@ -2,6 +2,8 @@
 
 A polished full-stack app for tracking shared expenses among friends. It includes a modern dashboard, quick balance summaries, an expense form, and a backend API ready to deploy.
 
+Live demo: [Splitly | Expense Tracker](https://splitly-expense-tracker.onrender.com/)
+
 ## Tech stack
 
 - Frontend: React + Vite
@@ -50,6 +52,8 @@ The Express server serves the Vite production build from the `dist` folder.
 
 ## Deployment on Render
 
+Live app: [Splitly | Expense Tracker](https://splitly-expense-tracker.onrender.com/)
+
 1. Push this project to GitHub.
 2. Create a new Web Service on Render.
 3. Set the build command:
@@ -60,7 +64,12 @@ The Express server serves the Vite production build from the `dist` folder.
    ```bash
    npm run start
    ```
-5. Render will serve the app using the production backend.
+5. Set environment variables:
+   ```bash
+   NODE_ENV=production
+   PORT=10000
+   ```
+6. Render will serve the app using the production backend.
 
 ## Project structure
 
